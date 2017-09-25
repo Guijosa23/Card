@@ -86,7 +86,7 @@ namespace WindowsFormsApp7
             Refresh();
             fg.FillRectangle(purpleBrush, 30, 70, 50, 100);
             fg.TranslateTransform(200, 50);
-            fg.RotateTransform(90);
+            fg.RotateTransform(90);//
             fg.FillRectangle(purpleBrush, 30, 70, 50, 100);
             fg.ResetTransform();
 
